@@ -9,14 +9,14 @@ const projects = [
    description: 
      "Landing page for the Organic Coffee Shop, made with HTML5, CSS using a combination of flex and grid.", 
    getImageSrc: () => require("../images/photo1.jpg"), 
-   url: "https://google.com",
+   url: "https://xuradel.github.io/cafe/",
  }, 
  { 
    title: "Little Lemon Restaurant", 
    description: 
      "Landing page for the Little Lemon Restaurant, made with HTML5, CSS using flexbox.", 
    getImageSrc: () => require("../images/photo2.jpg"), 
-   url: "https://facebook.com",
+   url: "https://xuradel.github.io/lemon/",
  }, 
  { 
    title: "Photo Gallery", 
