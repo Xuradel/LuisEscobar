@@ -19,16 +19,16 @@ const projects = [
    url: "https://xuradel.github.io/lemon/",
  }, 
  { 
-   title: "Photo Gallery", 
+   title: "Weather App", 
    description: 
-     "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income", 
+     "Coming Soon", 
    getImageSrc: () => require("../images/photo3.jpg"), 
    url: "https://instagram.com",
  }, 
  { 
-   title: "Event planner", 
+   title: "Crypto Currency App", 
    description: 
-     "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps", 
+     "Coming Soon", 
    getImageSrc: () => require("../images/photo4.jpg"), 
    url: "https://youtube.com",
  }, 
@@ -36,8 +36,8 @@ const projects = [
  
 const ProjectsSection = () => { 
  return ( 
-   <FullScreenSection 
-     backgroundColor="#14532d" 
+   <FullScreenSection id="projectPage"
+     backgroundColor="#19376D" 
      isDarkBackground 
      p={8} 
      alignItems="flex-start" 
